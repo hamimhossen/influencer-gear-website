@@ -185,6 +185,39 @@ nav > ul > li > a {
     padding: 8px 25px;
 }
 
+/* product-section-design */
+.product {
+    max-width: 1250px;
+    margin: 0 auto;
+    font-family: "work sans", sans-serif;
+    color: #ffffff;
+    background-color: #0a0826;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: rgba(217, 219, 225, 1);
+}
+
+.product-copyright {
+    font-size: 0.9rem;
+    color: rgba(217, 219, 225, 1);
+}
+
+.awesome {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 /* responsive-design-for-mobile-devices */
 @media screen and (max-width: 576px) {
     .head,
@@ -253,6 +286,9 @@ nav > ul > li > a {
     .paragraph {
         margin-right: 50px;
     }
+    .feature {
+        margin-bottom: 25px;
+    }
     .feature-title {
         font-size: 1.8rem;
         text-align: center;
@@ -275,5 +311,9 @@ nav > ul > li > a {
         margin: 0 auto;
         text-align: center;
         margin-bottom: 20px;
+    }
+    .product {
+        width: 100%;
+        margin: 0 auto;
     }
 }
